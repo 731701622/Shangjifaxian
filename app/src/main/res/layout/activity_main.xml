@@ -1,0 +1,79 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:text="提交商机"
+                android:id="@+id/bt_send"
+                android:backgroundTint="#E0E0E0"
+                android:textSize="30sp">
+            </Button>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:layout_margin="15dp"
+                android:id="@+id/bt_check"
+                android:textColor="@color/black"
+                android:backgroundTint="#E0E0E0"
+                android:layout_gravity="center_vertical"
+                android:text="查看商机">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:id="@+id/bt_examine"
+                android:layout_gravity="center_vertical"
+                android:text="审核商机"
+                android:backgroundTint="#E0E0E0"
+                android:textSize="30sp">
+            </Button>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:id="@+id/bt_maketrue"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:backgroundTint="#E0E0E0"
+                android:layout_gravity="center_vertical"
+                android:text="变现商机">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
